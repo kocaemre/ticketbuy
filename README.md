@@ -5,23 +5,20 @@ TicketBuy is a decentralized application (dApp) for managing and purchasing even
 
 ## Features
 
-- **Event Management**: Create and manage events effortlessly.
-- **Ticket Sales**: Securely buy and sell tickets using Ethereum.
-- **Seat Reservations**: Reserve seats and view remaining availability in real-time.
+- **Ticket Sales**: Securely buy tickets using Ethereum.
 - **User Dashboard**: Track your purchases and view event details.
+-  **Withdraw**: Owner can withdraw money.
 
 ## Technologies Used
 
 - **Ethereum**: Smart contract deployment and management.
 - **Scaffold-ETH**: Development framework for Ethereum dApps.
-- **React**: Front-end user interface.
+- **Next.js**: Front-end user interface.
 - **Tailwind CSS**: Styling framework for a responsive design.
 
 ## Getting Started
 
 To get a local copy up and running, follow these simple steps.
-
-
 
 
 ## Requirements
@@ -51,6 +48,7 @@ yarn chain
 ```
 
 This command starts a local Ethereum network using Hardhat. The network runs on your local machine and can be used for testing and development. You can customize the network configuration in `packages/hardhat/hardhat.config.ts`.
+Also you need to change `packages\nextjs\scaffold.config.ts:targetNetworks` to hardhat
 
 3. On a second terminal, deploy the test contract:
 
@@ -81,8 +79,8 @@ Visit our [docs](https://docs.scaffoldeth.io) to learn how to start building wit
 
 To know more about its features, check out our [website](https://scaffoldeth.io).
 
-## Contributing to Scaffold-ETH 2
+## Contributing to project
 
-We welcome contributions to Scaffold-ETH 2!
+We welcome contributions
 
-Please see [CONTRIBUTING.MD](https://github.com/scaffold-eth/scaffold-eth-2/blob/main/CONTRIBUTING.md) for more information and guidelines for contributing to Scaffold-ETH 2.#
+Email : emrekoca2003@hotmail.com
